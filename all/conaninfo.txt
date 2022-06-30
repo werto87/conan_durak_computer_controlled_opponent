@@ -1,0 +1,27 @@
+[settings]
+    compiler=gcc
+    compiler.libcxx=libstdc++11
+    compiler.version=11.2
+
+[requires]
+
+
+[options]
+
+
+[full_settings]
+    compiler=gcc
+    compiler.libcxx=libstdc++11
+    compiler.version=11.2
+
+[full_requires]
+
+
+[full_options]
+
+
+[recipe_hash]
+
+
+[env]
+
