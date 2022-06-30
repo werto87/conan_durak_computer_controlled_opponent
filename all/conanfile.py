@@ -25,14 +25,10 @@ class DurakComputerControlledOpponent(ConanFile):
 
     def requirements(self):
         self.requires("durak/0.0.8@werto87/stable")
-        self.requires("fmt/8.1.1")
-        self.requires("date/3.0.1")
         self.requires("st_tree/1.2.1")
-        self.requires("confu_soci/0.3.2@werto87/stable")
         self.requires("boost/1.78.0")
         self.requires("small_memory_tree/0.0.1")
         self.requires("range-v3/0.12.0")
-        self.requires("soci/4.0.2@werto87/stable")
 
     def source(self):
         tools.get(**self.conan_data["sources"][self.version])
