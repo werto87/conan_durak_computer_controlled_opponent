@@ -2,3 +2,6 @@ sources:
   "0.0.1":
     url: https://github.com/werto87/durak_computer_controlled_opponent/archive/refs/tags/v0.0.1.tar.gz
     sha256: 74120ade30239e65aaecfeb386f655a680f2a1cf9c0505a2d774f3f376cfb326
+  "0.0.2":
+    url: https://github.com/werto87/durak_computer_controlled_opponent/archive/refs/tags/v0.0.2.tar.gz
+    sha256: 956d8b8920000f2a862e1f474a61874c33f1b4b2edc1c4c4363c40cea9e53490    

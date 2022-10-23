@@ -1,7 +1,7 @@
 [settings]
-    compiler=gcc
-    compiler.libcxx=libstdc++11
-    compiler.version=12
+    compiler=clang
+    compiler.libcxx=libc++
+    compiler.version=14
 
 [requires]
     boost/1.Y.Z
@@ -15,19 +15,19 @@
 
 
 [full_settings]
-    compiler=gcc
-    compiler.libcxx=libstdc++11
-    compiler.version=12
+    compiler=clang
+    compiler.libcxx=libc++
+    compiler.version=14
 
 [full_requires]
     boost/1.78.0:524ea35a8120baabdde02483add58d81bf541327
-    confu_soci/0.3.2@werto87/stable:9e3eb1ce3ba5e17b25f49cd8e76d77d074ebad60
+    confu_soci/0.3.2@werto87/stable:02916931410bbb36f47f2e2cec8138082605caa1
     durak/0.0.8@werto87/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
     magic_enum/0.7.3:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
     range-v3/0.12.0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
     small_memory_tree/0.0.1:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
-    soci/4.0.2@werto87/stable:39f8344cff563fb8f28910f25ead1e9b8785a2b4
-    sqlite3/3.33.0:c355803c6c1a4c517a6b26411963dece5e8fb2b6
+    soci/4.0.2@werto87/stable:1e8c7f0ca27389e5a18059897f5b596a812e1651
+    sqlite3/3.33.0:00d0597b4e5c2dcbbc710f8e75e6c104d8014bbf
     st_tree/1.2.1:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 [full_options]
@@ -136,4 +136,5 @@
 
 
 [env]
-
+    CC=/usr/bin/clang
+    CXX=/usr/bin/clang++

@@ -1,26 +1,26 @@
 [includedirs]
 /home/walde/.conan/data/durak/0.0.8/werto87/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include
 /home/walde/.conan/data/small_memory_tree/0.0.1/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include
-/home/walde/.conan/data/confu_soci/0.3.2/werto87/stable/package/9e3eb1ce3ba5e17b25f49cd8e76d77d074ebad60/include
+/home/walde/.conan/data/confu_soci/0.3.2/werto87/stable/package/02916931410bbb36f47f2e2cec8138082605caa1/include
 /home/walde/.conan/data/pipes/1.0.0/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include
 /home/walde/.conan/data/range-v3/0.12.0/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include
 /home/walde/.conan/data/fmt/8.1.1/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include
 /home/walde/.conan/data/confu_json/0.0.5/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include
 /home/walde/.conan/data/st_tree/1.2.1/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include
 /home/walde/.conan/data/catch2/2.13.9/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include
-/home/walde/.conan/data/soci/4.0.2/werto87/stable/package/39f8344cff563fb8f28910f25ead1e9b8785a2b4/include
+/home/walde/.conan/data/soci/4.0.2/werto87/stable/package/1e8c7f0ca27389e5a18059897f5b596a812e1651/include
 /home/walde/.conan/data/magic_enum/0.7.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include
 /home/walde/.conan/data/boost/1.78.0/_/_/package/524ea35a8120baabdde02483add58d81bf541327/include
-/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/c355803c6c1a4c517a6b26411963dece5e8fb2b6/include
+/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/00d0597b4e5c2dcbbc710f8e75e6c104d8014bbf/include
 
 [libdirs]
-/home/walde/.conan/data/confu_soci/0.3.2/werto87/stable/package/9e3eb1ce3ba5e17b25f49cd8e76d77d074ebad60/lib
+/home/walde/.conan/data/confu_soci/0.3.2/werto87/stable/package/02916931410bbb36f47f2e2cec8138082605caa1/lib
 /home/walde/.conan/data/catch2/2.13.9/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib
-/home/walde/.conan/data/soci/4.0.2/werto87/stable/package/39f8344cff563fb8f28910f25ead1e9b8785a2b4/lib
-/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/c355803c6c1a4c517a6b26411963dece5e8fb2b6/lib
+/home/walde/.conan/data/soci/4.0.2/werto87/stable/package/1e8c7f0ca27389e5a18059897f5b596a812e1651/lib
+/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/00d0597b4e5c2dcbbc710f8e75e6c104d8014bbf/lib
 
 [bindirs]
-/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/c355803c6c1a4c517a6b26411963dece5e8fb2b6/bin
+/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/00d0597b4e5c2dcbbc710f8e75e6c104d8014bbf/bin
 
 [resdirs]
 
@@ -28,16 +28,16 @@
 [builddirs]
 /home/walde/.conan/data/durak/0.0.8/werto87/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 /home/walde/.conan/data/small_memory_tree/0.0.1/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/walde/.conan/data/confu_soci/0.3.2/werto87/stable/package/9e3eb1ce3ba5e17b25f49cd8e76d77d074ebad60/
+/home/walde/.conan/data/confu_soci/0.3.2/werto87/stable/package/02916931410bbb36f47f2e2cec8138082605caa1/
 /home/walde/.conan/data/pipes/1.0.0/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 /home/walde/.conan/data/range-v3/0.12.0/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 /home/walde/.conan/data/confu_json/0.0.5/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 /home/walde/.conan/data/st_tree/1.2.1/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 /home/walde/.conan/data/catch2/2.13.9/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/cmake/Catch2
-/home/walde/.conan/data/soci/4.0.2/werto87/stable/package/39f8344cff563fb8f28910f25ead1e9b8785a2b4/
+/home/walde/.conan/data/soci/4.0.2/werto87/stable/package/1e8c7f0ca27389e5a18059897f5b596a812e1651/
 /home/walde/.conan/data/magic_enum/0.7.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 /home/walde/.conan/data/boost/1.78.0/_/_/package/524ea35a8120baabdde02483add58d81bf541327/
-/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/c355803c6c1a4c517a6b26411963dece5e8fb2b6/
+/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/00d0597b4e5c2dcbbc710f8e75e6c104d8014bbf/
 
 [libs]
 convenienceFunctionForSoci
@@ -206,10 +206,10 @@ small_memory_tree
 
 
 [includedirs_confu_soci]
-/home/walde/.conan/data/confu_soci/0.3.2/werto87/stable/package/9e3eb1ce3ba5e17b25f49cd8e76d77d074ebad60/include
+/home/walde/.conan/data/confu_soci/0.3.2/werto87/stable/package/02916931410bbb36f47f2e2cec8138082605caa1/include
 
 [libdirs_confu_soci]
-/home/walde/.conan/data/confu_soci/0.3.2/werto87/stable/package/9e3eb1ce3ba5e17b25f49cd8e76d77d074ebad60/lib
+/home/walde/.conan/data/confu_soci/0.3.2/werto87/stable/package/02916931410bbb36f47f2e2cec8138082605caa1/lib
 
 [bindirs_confu_soci]
 
@@ -218,7 +218,7 @@ small_memory_tree
 
 
 [builddirs_confu_soci]
-/home/walde/.conan/data/confu_soci/0.3.2/werto87/stable/package/9e3eb1ce3ba5e17b25f49cd8e76d77d074ebad60/
+/home/walde/.conan/data/confu_soci/0.3.2/werto87/stable/package/02916931410bbb36f47f2e2cec8138082605caa1/
 
 [libs_confu_soci]
 convenienceFunctionForSoci
@@ -254,7 +254,7 @@ convenienceFunctionForSoci
 
 
 [rootpath_confu_soci]
-/home/walde/.conan/data/confu_soci/0.3.2/werto87/stable/package/9e3eb1ce3ba5e17b25f49cd8e76d77d074ebad60
+/home/walde/.conan/data/confu_soci/0.3.2/werto87/stable/package/02916931410bbb36f47f2e2cec8138082605caa1
 
 [name_confu_soci]
 confu_soci
@@ -658,10 +658,10 @@ cmake_find_package_multi=Catch2
 
 
 [includedirs_soci]
-/home/walde/.conan/data/soci/4.0.2/werto87/stable/package/39f8344cff563fb8f28910f25ead1e9b8785a2b4/include
+/home/walde/.conan/data/soci/4.0.2/werto87/stable/package/1e8c7f0ca27389e5a18059897f5b596a812e1651/include
 
 [libdirs_soci]
-/home/walde/.conan/data/soci/4.0.2/werto87/stable/package/39f8344cff563fb8f28910f25ead1e9b8785a2b4/lib
+/home/walde/.conan/data/soci/4.0.2/werto87/stable/package/1e8c7f0ca27389e5a18059897f5b596a812e1651/lib
 
 [bindirs_soci]
 
@@ -670,7 +670,7 @@ cmake_find_package_multi=Catch2
 
 
 [builddirs_soci]
-/home/walde/.conan/data/soci/4.0.2/werto87/stable/package/39f8344cff563fb8f28910f25ead1e9b8785a2b4/
+/home/walde/.conan/data/soci/4.0.2/werto87/stable/package/1e8c7f0ca27389e5a18059897f5b596a812e1651/
 
 [libs_soci]
 soci_sqlite3
@@ -707,7 +707,7 @@ soci_core
 
 
 [rootpath_soci]
-/home/walde/.conan/data/soci/4.0.2/werto87/stable/package/39f8344cff563fb8f28910f25ead1e9b8785a2b4
+/home/walde/.conan/data/soci/4.0.2/werto87/stable/package/1e8c7f0ca27389e5a18059897f5b596a812e1651
 
 [name_soci]
 soci
@@ -853,19 +853,19 @@ cmake_find_package_multi=Boost
 
 
 [includedirs_sqlite3]
-/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/c355803c6c1a4c517a6b26411963dece5e8fb2b6/include
+/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/00d0597b4e5c2dcbbc710f8e75e6c104d8014bbf/include
 
 [libdirs_sqlite3]
-/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/c355803c6c1a4c517a6b26411963dece5e8fb2b6/lib
+/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/00d0597b4e5c2dcbbc710f8e75e6c104d8014bbf/lib
 
 [bindirs_sqlite3]
-/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/c355803c6c1a4c517a6b26411963dece5e8fb2b6/bin
+/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/00d0597b4e5c2dcbbc710f8e75e6c104d8014bbf/bin
 
 [resdirs_sqlite3]
 
 
 [builddirs_sqlite3]
-/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/c355803c6c1a4c517a6b26411963dece5e8fb2b6/
+/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/00d0597b4e5c2dcbbc710f8e75e6c104d8014bbf/
 
 [libs_sqlite3]
 sqlite3
@@ -902,7 +902,7 @@ dl
 
 
 [rootpath_sqlite3]
-/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/c355803c6c1a4c517a6b26411963dece5e8fb2b6
+/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/00d0597b4e5c2dcbbc710f8e75e6c104d8014bbf
 
 [name_sqlite3]
 sqlite3
@@ -947,4 +947,4 @@ stacktrace_addr2line_available=False
 [ENV_boost]
 BOOST_ROOT=/home/walde/.conan/data/boost/1.78.0/_/_/package/524ea35a8120baabdde02483add58d81bf541327
 [ENV_sqlite3]
-PATH=["/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/c355803c6c1a4c517a6b26411963dece5e8fb2b6/bin"]
+PATH=["/home/walde/.conan/data/sqlite3/3.33.0/_/_/package/00d0597b4e5c2dcbbc710f8e75e6c104d8014bbf/bin"]

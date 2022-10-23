@@ -403,8 +403,8 @@
  ],
  "root": {
   "name": "durak_computer_controlled_opponent",
-  "version": "0.0.2",
-  "user": "werto87",
-  "channel": "stable"
+  "version": null,
+  "user": null,
+  "channel": null
  }
 }

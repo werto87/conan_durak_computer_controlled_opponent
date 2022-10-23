@@ -29,6 +29,8 @@ class DurakComputerControlledOpponent(ConanFile):
         self.requires("boost/1.78.0")
         self.requires("small_memory_tree/0.0.1")
         self.requires("range-v3/0.12.0")
+        self.requires("confu_soci/0.3.2@werto87/stable")
+        
 
     def source(self):
         tools.get(**self.conan_data["sources"][self.version])
@@ -38,7 +40,7 @@ class DurakComputerControlledOpponent(ConanFile):
     def build(self):
         cmake = CMake(self)
         cmake.configure(source_folder=self._source_subfolder)
-        cmake.build()
+        cmake.build(args=["--target durak_computer_controlled_opponent"])
 
     def package(self):
         self.copy("*.h*",
