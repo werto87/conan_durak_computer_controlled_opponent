@@ -24,7 +24,7 @@ class DurakComputerControlledOpponent(ConanFile):
         self.options["soci"].with_sqlite3 = True
 
     def requirements(self):
-        self.requires("durak/0.0.9@werto87/stable")
+        self.requires("durak/0.0.10@werto87/stable")
         self.requires("st_tree/1.2.1")
         self.requires("boost/1.78.0")
         self.requires("small_memory_tree/0.0.1")
