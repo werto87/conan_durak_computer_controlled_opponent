@@ -1,34 +1,4 @@
 sources:
-  "0.0.1":
-    url: https://github.com/werto87/durak_computer_controlled_opponent/archive/refs/tags/v0.0.1.tar.gz
-    sha256: 74120ade30239e65aaecfeb386f655a680f2a1cf9c0505a2d774f3f376cfb326
-  "0.0.2":
-    url: https://github.com/werto87/durak_computer_controlled_opponent/archive/refs/tags/v0.0.2.tar.gz
-    sha256: 956d8b8920000f2a862e1f474a61874c33f1b4b2edc1c4c4363c40cea9e53490
-  "0.0.3":
-    url: https://github.com/werto87/durak_computer_controlled_opponent/archive/refs/tags/v0.0.3.tar.gz
-    sha256: cd1add123946be299864820f8211f6af1d73a1dae506e7d458a1792f63815bd5
-  "0.0.4":
-    url: https://github.com/werto87/durak_computer_controlled_opponent/archive/refs/tags/v0.0.4.tar.gz
-    sha256: bc8543df51b286b0d31203efa0fc69b62dd8bc09202bf87a73fa00abf71c7a6c
-  "0.0.5":
-    url: https://github.com/werto87/durak_computer_controlled_opponent/archive/refs/tags/v0.0.5.tar.gz
-    sha256: 299e7b9972e49234b028210fc43eec8b7b9135c7e06f0c33625583028d231f0c
-  "0.0.6":
-    url: https://github.com/werto87/durak_computer_controlled_opponent/archive/refs/tags/v0.0.6.tar.gz
-    sha256: 3ef0db97822c2c7e2769777b8d25b610c50fbf83dab49ea00911cb7dc8f40f13
-  "0.0.7":
-    url: https://github.com/werto87/durak_computer_controlled_opponent/archive/refs/tags/v0.0.7.tar.gz
-    sha256: 1cd7df69a1be2d94b83d223c9810b6a590e83c3d2d2788f7fa20c80726f45c88
-  "0.0.8":
-    url: https://github.com/werto87/durak_computer_controlled_opponent/archive/refs/tags/v0.0.8.tar.gz
-    sha256: eac51c8cec70ff877c2dd261d2e9f71366ad24807283af657d44fdd2e00edb85
-  "0.0.9":
-    url: https://github.com/werto87/durak_computer_controlled_opponent/archive/refs/tags/v0.0.9.tar.gz
-    sha256: a03536ac8a27c16bbdc6506398b83ed63f92b20c750c430b1fed5877c411d767
-  "0.0.10":
-    url: https://github.com/werto87/durak_computer_controlled_opponent/archive/refs/tags/v0.0.10.tar.gz
-    sha256: 2a63f800e747a7990efa1c3d433ced2c83cca8931401abe0fe0b2c384e18001e
-  "0.0.11":
-    url: https://github.com/werto87/durak_computer_controlled_opponent/archive/refs/tags/v0.0.11.tar.gz
-    sha256: f30ee04cab754d59baebc5c366a92517c72951a36d4dc43a06e604c8510c5a46
+  "0.0.13":
+    url: https://github.com/werto87/durak_computer_controlled_opponent/archive/refs/tags/v0.0.13.tar.gz
+    sha256: 28d6ecb888120e598159393995bc2fd1a7e39cc7bedbd069b8935a1c3b0aa434

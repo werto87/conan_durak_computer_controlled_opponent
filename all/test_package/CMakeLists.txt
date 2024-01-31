@@ -1,11 +1,7 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.15)
 project(test_package CXX)
 
-include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
-conan_basic_setup(TARGETS)
+find_package(durak_computer_controlled_opponent REQUIRED CONFIG)
 
-add_executable(${PROJECT_NAME} example.cpp)
-target_link_libraries(${PROJECT_NAME} PRIVATE
-    CONAN_PKG::durak_computer_controlled_opponent
-)
-target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_20)
+add_executable(${PROJECT_NAME} test_package.cpp)
+target_link_libraries(${PROJECT_NAME} PRIVATE durak_computer_controlled_opponent::durak_computer_controlled_opponent)
