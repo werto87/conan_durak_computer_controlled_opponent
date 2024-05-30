@@ -17,16 +17,17 @@ class DurakComputerControlledOpponent(ConanFile):
 
 
     def configure(self):
-        self.options["soci"].with_boost = True
-        self.options["soci"].with_sqlite3 = True
+        self.options["boost"].header_only = True
+        self.options["small_memory_tree"].with_st_tree = True
 
     def requirements(self):
-        self.requires("durak/1.0.3", transitive_libs=True, transitive_headers=True)
+        self.requires("boost/1.85.0",force=True)
+        self.requires("durak/1.0.5",transitive_headers=True)
         self.requires("st_tree/1.2.1")
-        self.requires("boost/1.84.0", force=True)
-        self.requires("small_memory_tree/4.0.2", transitive_libs=True, transitive_headers=True)
-        self.requires("range-v3/0.12.0")
-        self.requires("confu_soci/0.3.20")
+        self.requires("small_memory_tree/5.2.0",transitive_headers=True)
+        self.requires("stlplus/3.16.0")
+        self.requires("confu_soci/0.3.21")
+        self.requires("magic_enum/[>=0.9.5 <10]")
 
 
     def source(self):
