@@ -24,8 +24,8 @@ class DurakComputerControlledOpponent(ConanFile):
         self.requires("boost/1.85.0",force=True)
         self.requires("durak/1.0.5",transitive_headers=True)
         self.requires("st_tree/1.2.1")
-        self.requires("small_memory_tree/5.2.0",transitive_headers=True)
-        self.requires("stlplus/3.16.0")
+        self.requires("small_memory_tree/7.0.1",transitive_headers=True)
+        self.requires("cereal/1.3.2")
         self.requires("confu_soci/0.3.21")
         self.requires("magic_enum/[>=0.9.5 <10]")
 

@@ -4,6 +4,6 @@
         "conan": {}
     },
     "include": [
-        "build/clang-17-x86_64-gnu20-release/generators/CMakePresets.json"
+        "build/gcc-14-x86_64-gnu23-release/generators/CMakePresets.json"
     ]
 }
