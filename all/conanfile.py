@@ -22,7 +22,7 @@ class DurakComputerControlledOpponent(ConanFile):
 
     def requirements(self):
         self.requires("boost/1.85.0",force=True)
-        self.requires("durak/1.0.5",transitive_headers=True)
+        self.requires("durak/1.1.0",transitive_headers=True)
         self.requires("st_tree/1.2.1")
         self.requires("small_memory_tree/7.0.1",transitive_headers=True)
         self.requires("cereal/1.3.2")
