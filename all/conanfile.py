@@ -22,11 +22,11 @@ class DurakComputerControlledOpponent(ConanFile):
 
     def requirements(self):
         self.requires("boost/1.85.0",force=True)
-        self.requires("durak/1.1.0",transitive_headers=True)
+        self.requires("durak/1.1.1",transitive_headers=True)
         self.requires("st_tree/1.2.1")
-        self.requires("small_memory_tree/7.0.1",transitive_headers=True)
+        self.requires("small_memory_tree/7.0.5",transitive_headers=True)
         self.requires("cereal/1.3.2")
-        self.requires("confu_soci/0.3.21")
+        self.requires("confu_soci/[<1]")
         self.requires("magic_enum/[>=0.9.5 <10]")
 
 
@@ -46,4 +46,5 @@ class DurakComputerControlledOpponent(ConanFile):
         cmake.install()
 
     def package_info(self):
-        self.cpp_info.libs = [self.name]
+        self.cpp_info.components[self.name].requires = ["durak::durak", "small_memory_tree::small_memory_tree", "st_tree::st_tree", "confu_soci::confu_soci", "boost::headers", "magic_enum::magic_enum", "cereal::cereal"]
+        self.cpp_info.components[self.name].libs = [self.name]
