@@ -17,7 +17,6 @@ class DurakComputerControlledOpponent(ConanFile):
 
 
     def configure(self):
-        self.options["boost"].header_only = True
         self.options["small_memory_tree"].with_st_tree = True
 
     def requirements(self):
