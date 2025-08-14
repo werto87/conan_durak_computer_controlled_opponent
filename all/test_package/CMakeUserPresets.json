@@ -4,6 +4,7 @@
         "conan": {}
     },
     "include": [
-        "build\\msvc-194-x86_64-23-release\\generators\\CMakePresets.json"
+        "build\\msvc-194-x86_64-23-release\\generators\\CMakePresets.json",
+        "build/msvc-194-x86_64-23-release/generators/CMakePresets.json"
     ]
 }
