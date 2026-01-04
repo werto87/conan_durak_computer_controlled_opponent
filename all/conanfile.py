@@ -21,11 +21,11 @@ class DurakComputerControlledOpponent(ConanFile):
 
     def requirements(self):
         self.requires("boost/1.86.0",force=True)
-        self.requires("durak/1.1.2",transitive_headers=True)
+        self.requires("durak/2.0.0",transitive_headers=True)
         self.requires("st_tree/1.2.1")
         self.requires("small_memory_tree/7.0.5",transitive_headers=True)
         self.requires("cereal/1.3.2")
-        self.requires("confu_soci/[<1]")
+        self.requires("confu_soci/[<2]")
         self.requires("magic_enum/[>=0.9.5 <10]")
         self.requires("sqlite3/3.44.2")
         self.requires("fmt/11.2.0")
