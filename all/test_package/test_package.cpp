@@ -1,5 +1,5 @@
-#include "durak_computer_controlled_opponent/compressCard.hxx"
-#include "durak_computer_controlled_opponent/permutation.hxx"
+#include "durak_computer_controlled_opponent/simulation/compressCard.hxx"
+#include "durak_computer_controlled_opponent/simulation/permutation.hxx"
 
 int main() {
   auto const result = durak_computer_controlled_opponent::compress ({ { 6, durak::Type::clubs }, { 11, durak::Type::clubs }, { 14, durak::Type::clubs }, { 8, durak::Type::hearts } });
