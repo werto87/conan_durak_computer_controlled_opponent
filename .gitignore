@@ -38,3 +38,4 @@ conaninfo.txt
 graph_info.json
 build/
 .ccls-cache
+all/test_package/CMakeUserPresets.json
